@@ -1,0 +1,11 @@
+Install Instructions
+====================
+
+Ensure you are using the system Ruby for these steps, as that is what
+Vim will be using.
+
+1. Install github-markup gem for Hammer
+    sudo gem install github-markup
+2. Make Command-T C bits:
+    cd bundle/command_t
+    rake make
