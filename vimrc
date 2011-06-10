@@ -142,3 +142,7 @@ runtime! macros/matchit.vim
 
 " Show/hide Gundo.
 nnoremap <F5> :GundoToggle<CR>
+
+" Buffergator
+let g:buffergator_suppress_keymaps = 1
+nnoremap <silent> <Leader>bg :BuffergatorToggle<CR>
