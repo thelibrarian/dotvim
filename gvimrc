@@ -212,6 +212,6 @@ let g:gundo_preview_bottom = 1
 
 set ch=2
 
-set background=dark
+set background=light
 color solarized
 set guifont=Consolas:h14
