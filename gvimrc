@@ -214,4 +214,9 @@ set ch=2
 
 set background=light
 color solarized
-set guifont=Consolas:h14
+if has("win32")
+  " Font sizes seem to be bigger in Windows, so set smaller
+  set guifont=Consolas:h12
+else
+  set guifont=Consolas:h14
+end

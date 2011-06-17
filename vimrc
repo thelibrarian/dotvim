@@ -122,12 +122,21 @@ set modelines=10
 color desert
 
 " Directories for swp files
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
+if has("win32")
+  set backupdir=~/vimfiles/backup
+  set directory=~/vimfiles/backup
+else
+  set backupdir=~/.vim/backup
+  set directory=~/.vim/backup
+endif
 
 if version >= 730
   " Directory for undo files
-  set undodir=~/.vim/undo
+  if has("win32")
+    set undodir=~/vimfiles/vim/undo
+  else
+    set undodir=~/.vim/undo
+  endif
   set undofile
   set undolevels=1000 "maximum number of changes that can be undone
   set undoreload=10000 "maximum number lines to save for undo on a buffer reload
