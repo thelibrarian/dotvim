@@ -13,9 +13,6 @@
 [submodule "bundle/align"]
 	path = bundle/align
 	url = https://github.com/tsaleh/vim-align.git
-[submodule "bundle/buffergator"]
-	path = bundle/buffergator
-	url = https://github.com/jeetsukumaran/vim-buffergator.git
 [submodule "bundle/color-sampler"]
 	path = bundle/color-sampler
 	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
@@ -124,3 +121,9 @@
 [submodule "bundle/ragtag"]
 	path = bundle/ragtag
 	url = https://github.com/tpope/vim-ragtag.git
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = https://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "bundle/bufkill"]
+	path = bundle/bufkill
+	url = https://github.com/vim-scripts/bufkill.vim
