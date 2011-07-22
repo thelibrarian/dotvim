@@ -154,3 +154,7 @@ runtime! macros/matchit.vim
 
 " Show/hide Gundo.
 nnoremap <F5> :GundoToggle<CR>
+
+" Disable default BufferGator mapping (conflicts with CommandT)
+let g:buffergator_suppress_keymaps = 1
+nnoremap <Leader>bg :BuffergatorToggle<CR>
