@@ -139,3 +139,6 @@
 [submodule "bundle/NrrwRgn"]
 	path = bundle/NrrwRgn
 	url = https://github.com/chrisbra/NrrwRgn.git
+[submodule "bundle/utl"]
+	path = bundle/utl
+	url = https://github.com/vim-scripts/utl.vim.git
