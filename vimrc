@@ -162,3 +162,10 @@ nnoremap <Leader>bg :BuffergatorToggle<CR>
 let g:buffergator_autoexpand_on_split = 0
 let g:buffergator_split_size = 10
 let g:buffergator_viewport_split_policy = "T"
+
+" Turn on folding
+function FoldEmUp()
+  set fdm=indent
+  set fdc=2
+endfunction
+nnoremap <Leader>f :call FoldEmUp()<CR>
