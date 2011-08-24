@@ -169,3 +169,20 @@ function FoldEmUp()
   set fdc=2
 endfunction
 nnoremap <Leader>f :call FoldEmUp()<CR>
+
+" Carry out command, preserving cursor position and search buffer
+" http://technotales.wordpress.com/2010/03/31/preserve-a-vim-function-that-keeps-your-state/
+function! Preserve(command)
+  " Preparation: save last search, and cursor position.
+  let _s=@/
+  let l = line(".")
+  let c = col(".")
+  " Do the business:
+  execute a:command
+  " Clean up: restore previous search history, and cursor position
+  let @/=_s
+  call cursor(l, c)
+endfunction
+
+" Strip trailing whitespace
+nmap _$ :call Preserve("%s/\\s\\+$//e")<CR>
