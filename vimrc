@@ -186,3 +186,18 @@ endfunction
 
 " Strip trailing whitespace
 nmap _$ :call Preserve("%s/\\s\\+$//e")<CR>
+
+" Allow remapping of C-e in insert mode without interfering with
+" C-e to abort autocompletion.
+function! InsCtrlE()
+    try
+        norm! i
+        return "\<C-o>A"
+    catch
+        return "\<C-e>"
+    endtry
+endfunction
+
+" Map C-a and C-e to move to beginning/end of line like Emacs
+imap <C-a> <C-o>I
+inoremap <C-e> <C-r>=InsCtrlE()<cr>
