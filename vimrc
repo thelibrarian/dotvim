@@ -11,6 +11,7 @@ endif
 set ruler
 syntax on
 set hidden
+set statusline=%t\ %m[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%r%y%=%c,%l/%L\ %P
 
 " Set encoding
 set encoding=utf-8
