@@ -3,7 +3,11 @@ call pathogen#helptags()
 
 set nocompatible
 
-set number
+if version >= 730
+  set relativenumber
+else
+  set number
+endif
 set ruler
 syntax on
 set hidden
