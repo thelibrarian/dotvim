@@ -16,6 +16,9 @@ set statusline=%t\ %m[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%r%y%=%c,%l/%L\ %P
 " Set encoding
 set encoding=utf-8
 
+" Set spelling language
+set spelllang=en_au
+
 " Whitespace stuff
 set nowrap
 set tabstop=2
