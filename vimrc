@@ -1,5 +1,4 @@
 call pathogen#infect()
-call pathogen#helptags()
 
 set nocompatible
 
