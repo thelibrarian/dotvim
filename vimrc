@@ -2,7 +2,7 @@ call pathogen#infect()
 
 set nocompatible
 
-if version >= 730
+if version >= 703
   set relativenumber
 else
   set number
@@ -138,7 +138,7 @@ else
   set directory=~/.vim/backup
 endif
 
-if version >= 730
+if version >= 703
   " Directory for undo files
   if has("win32")
     set undodir=~/vimfiles/vim/undo
