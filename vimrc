@@ -208,3 +208,16 @@ endfunction
 " Map C-a and C-e to move to beginning/end of line like Emacs
 imap <C-a> <C-o>I
 inoremap <C-e> <C-r>=InsCtrlE()<cr>
+
+" Highlight the line the cursor is currently on, but turn it off
+" when leaving the current window.
+setlocal cursorline
+au WinEnter * setlocal cursorline
+au WinLeave * setlocal nocursorline
+
+" Start scrolling when within 5 lines near the top/bottom
+set scrolloff=5
+
+" Allow freeform selection (i.e. ignoring line endings) in
+" visual block mode.
+set virtualedit+=block
