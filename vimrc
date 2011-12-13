@@ -1,4 +1,17 @@
 set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required!
+Bundle 'gmarik/vundle'
+
+" Load my bundles
+source ~/.vim/vundle-bundles.vim
+
+filetype plugin indent on
 
 if version >= 703
   set relativenumber
