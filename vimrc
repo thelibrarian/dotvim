@@ -223,3 +223,6 @@ set scrolloff=5
 " Allow freeform selection (i.e. ignoring line endings) in
 " visual block mode.
 set virtualedit+=block
+
+" Use sudo to write a file when I have forgotten to 'sudo vim'
+cmap w!! %!sudo tee > /dev/null %
