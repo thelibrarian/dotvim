@@ -75,3 +75,8 @@ if has("win32")
 else
   set guifont=Consolas:h14
 end
+
+set columns=80
+set lines=40
+map <Leader>x2 :set columns=160<CR>
+map <Leader>x1 :set columns=80<CR>
