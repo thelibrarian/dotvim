@@ -240,3 +240,13 @@ vmap <Right> <nop>
 " Go up/down by screen line, not file line.
 nnoremap k gk
 nnoremap j gj
+
+" Toggles line number mode.
+function! g:ToggleNuMode()
+  if(&rnu == 1)
+    set nu
+  else
+    set rnu
+  endif
+endfunc
+nnoremap <C-L> :call g:ToggleNuMode()<cr>
