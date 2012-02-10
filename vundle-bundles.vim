@@ -34,6 +34,7 @@ Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tsaleh/vim-align'
+Bundle 'sandeepcr529/Buffet.vim'
 if has('ruby')
   Bundle 'robgleeson/hammer.vim'
   Bundle 'wincent/Command-T'
