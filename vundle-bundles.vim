@@ -45,7 +45,6 @@ if has('ruby')
 endif
 if has('python')
   " Bundle 'jceb/vim-orgmode'
-  Bundle 'Processing'
   Bundle 'sjl/gundo.vim'
   Bundle 'SirVer/ultisnips'
 endif
