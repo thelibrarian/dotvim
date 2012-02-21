@@ -157,17 +157,6 @@ runtime! macros/matchit.vim
 " Show/hide Gundo.
 nnoremap <F5> :GundoToggle<CR>
 
-" Disable default BufferGator mapping (conflicts with CommandT)
-let g:buffergator_suppress_keymaps = 1
-nnoremap <Leader>bg :BuffergatorToggle<CR>
-" Other Buffergator settings
-let g:buffergator_autoexpand_on_split = 0
-let g:buffergator_split_size = 10
-let g:buffergator_viewport_split_policy = "T"
-
-" Bufexplorer config
-let g:bufExplorerShowRelativePath=1
-
 " Turn on folding
 function FoldEmUp()
   set fdm=indent

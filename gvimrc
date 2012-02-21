@@ -50,17 +50,6 @@ endif
 " Start without the toolbar
 set guioptions-=T
 
-" Default gui color scheme
-" color wombat
-
-" ConqueTerm wrapper
-function StartTerm()
-  execute 'ConqueTerm ' . $SHELL . ' --login'
-  setlocal nolist
-endfunction
-
-" source nerdtreeerc.vim
-
 " Have the GUndo preview diff display across the bottom of the frame
 " rather than be in a tiny window below the graph
 let g:gundo_preview_bottom = 1
