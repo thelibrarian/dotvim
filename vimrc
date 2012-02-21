@@ -239,3 +239,6 @@ function! g:ToggleNuMode()
   endif
 endfunc
 nnoremap <C-L> :call g:ToggleNuMode()<cr>
+
+" Map key for Bufferlist
+nnoremap <Leader>b :Bufferlist<CR>
