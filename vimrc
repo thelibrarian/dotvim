@@ -1,4 +1,10 @@
 set nocompatible
+" Make sure the 'filetypedetect' group exists before calling 'filetype off'
+" as a workaround for the problem where 'filetype off' is causing an error
+" due to said group not existing.
+augroup filetypedetect
+  au!
+augroup END
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
