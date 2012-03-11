@@ -154,9 +154,6 @@ if version >= 703
   set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 endif
 
-" Turn off jslint errors by default
-let g:JSLintHighlightErrorLine = 0
-
 " % to bounce from do to end etc.
 runtime! macros/matchit.vim
 
