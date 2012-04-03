@@ -9,7 +9,7 @@
 " Bundle 'timcharper/textile.vim'
 " Bundle 'tsaleh/vim-align'
 " Bundle 'gregsexton/gitv'
-Bundle 'AutoClose'
+Bundle 'kana/vim-smartinput'
 Bundle 'ReplaceWithRegister'
 Bundle 'ZoomWin'
 Bundle 'nginx.vim'
