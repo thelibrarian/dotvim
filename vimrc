@@ -223,7 +223,7 @@ nmap <Down> <nop>
 imap <Down> <nop>
 vmap <Down> <nop>
 nmap <Left> <nop>
-imap <Left> <nop>
+" imap <Left> <nop>
 vmap <Left> <nop>
 nmap <Right> <nop>
 imap <Right> <nop>
