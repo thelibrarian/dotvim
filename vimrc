@@ -213,16 +213,16 @@ cmap w!! %!sudo tee > /dev/null %
 
 " Disable arrow keys
 nmap <Up> <nop>
-imap <Up> <nop>
+" imap <Up> <nop>
 vmap <Up> <nop>
 nmap <Down> <nop>
-imap <Down> <nop>
+" imap <Down> <nop>
 vmap <Down> <nop>
 nmap <Left> <nop>
 " imap <Left> <nop>
 vmap <Left> <nop>
 nmap <Right> <nop>
-imap <Right> <nop>
+" imap <Right> <nop>
 vmap <Right> <nop>
 
 " Go up/down by screen line, not file line.
