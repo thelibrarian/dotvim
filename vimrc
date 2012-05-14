@@ -101,6 +101,9 @@ au BufRead,BufNewFile nginx.conf set ft=nginx
 " make python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
 au FileType python  set tabstop=4 textwidth=79
 
+" Enable ragtag for haml files
+au FileType haml call RagtagInit()
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
