@@ -8,6 +8,9 @@ if has("gui_macvim")
   map <D-t> :CommandT<CR>
   imap <D-t> <Esc>:CommandT<CR>
 
+  " Command-R to refresh Command-T
+  map <D-r> :CommandTFlush<CR>
+
   " Command-Return for fullscreen
   macmenu Window.Toggle\ Full\ Screen\ Mode key=<D-CR>
 
