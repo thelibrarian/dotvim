@@ -60,9 +60,9 @@ set background=light
 color solarized
 if has("win32")
   " Font sizes seem to be bigger in Windows, so set smaller
-  set guifont=Consolas:h12
+  set guifont=Consolas:h12,Courier\ New:h12
 else
-  set guifont=Consolas:h14
+  set guifont=Anonymous\ Pro:h14,Consolas:h14,Monaco:h12,Inconsolata:h14
 end
 
 set columns=80
