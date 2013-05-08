@@ -244,3 +244,6 @@ nnoremap <C-L> :call g:ToggleNuMode()<cr>
 
 " Map key for Bufferlist
 nnoremap <Leader>b :Bufferlist<CR>
+
+" Get Ack.vim to use the_silver_searcher
+let g:ackprg='ag --nogroup --nocolor --column'
