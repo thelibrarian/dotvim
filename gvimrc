@@ -62,7 +62,7 @@ if has("win32")
   " Font sizes seem to be bigger in Windows, so set smaller
   set guifont=Consolas:h12,Courier\ New:h12
 else
-  set guifont=Consolas:h12,Inconsolata:h12,Monaco:h12,Anonymous\ Pro:h14
+  set guifont=DejaVuSansMonoForPowerline:h12,Anonymous\ Pro:h14,Consolas:h12,Monaco:h12
 end
 
 set columns=80

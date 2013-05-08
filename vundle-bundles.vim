@@ -48,3 +48,4 @@ if has('python')
   Bundle 'sjl/gundo.vim'
   Bundle 'SirVer/ultisnips'
 endif
+Bundle 'Lokaltog/vim-powerline'

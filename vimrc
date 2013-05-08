@@ -247,3 +247,5 @@ nnoremap <Leader>b :Bufferlist<CR>
 
 " Get Ack.vim to use the_silver_searcher
 let g:ackprg='ag --nogroup --nocolor --column'
+set fillchars+=stl:\ ,stlnc:\
+let g:Powerline_symbols = 'fancy'
