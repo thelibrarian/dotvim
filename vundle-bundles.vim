@@ -49,3 +49,4 @@ if has('python')
   Bundle 'SirVer/ultisnips'
 endif
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'closetag.vim'
