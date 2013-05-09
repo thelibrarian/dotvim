@@ -160,13 +160,6 @@ runtime! macros/matchit.vim
 " Show/hide Gundo.
 nnoremap <F5> :GundoToggle<CR>
 
-" Turn on folding
-function FoldEmUp()
-  set fdm=indent
-  set fdc=2
-endfunction
-nnoremap <Leader>f :call FoldEmUp()<CR>
-
 " Carry out command, preserving cursor position and search buffer
 " http://technotales.wordpress.com/2010/03/31/preserve-a-vim-function-that-keeps-your-state/
 function! Preserve(command)
@@ -211,23 +204,6 @@ set scrolloff=5
 " Allow freeform selection (i.e. ignoring line endings) in
 " visual block mode.
 set virtualedit+=block
-
-" Use sudo to write a file when I have forgotten to 'sudo vim'
-cmap w!! %!sudo tee > /dev/null %
-
-" Disable arrow keys
-nmap <Up> <nop>
-" imap <Up> <nop>
-vmap <Up> <nop>
-nmap <Down> <nop>
-" imap <Down> <nop>
-vmap <Down> <nop>
-nmap <Left> <nop>
-" imap <Left> <nop>
-vmap <Left> <nop>
-nmap <Right> <nop>
-" imap <Right> <nop>
-vmap <Right> <nop>
 
 " Go up/down by screen line, not file line.
 nnoremap k gk
