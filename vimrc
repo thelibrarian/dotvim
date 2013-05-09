@@ -11,7 +11,8 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Load my bundles
-source ~/.vim/vundle-bundles.vim
+source ~/.vim/vundle.vim
+source ~/.vim/vundle-local.vim
 
 filetype plugin indent on
 
