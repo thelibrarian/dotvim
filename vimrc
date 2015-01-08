@@ -226,3 +226,6 @@ nnoremap <Leader>b :Bufferlist<CR>
 let g:ackprg='ag --nogroup --nocolor --column'
 set fillchars+=stl:\ ,stlnc:\
 let g:Powerline_symbols = 'fancy'
+
+" Command-T should only work on the current folder
+let g:CommandTTraverseSCM = 'pwd'
