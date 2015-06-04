@@ -57,7 +57,7 @@ let g:gundo_preview_bottom = 1
 set ch=2
 
 set background=dark
-color solarized
+" color solarized
 if has("win32")
   " Font sizes seem to be bigger in Windows, so set smaller
   set guifont=Consolas:h12,Courier\ New:h12

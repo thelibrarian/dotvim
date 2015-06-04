@@ -34,3 +34,4 @@ if has('python')
 endif
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'closetag.vim'
+Bundle 'morhetz/gruvbox'
